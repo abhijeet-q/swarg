@@ -1,3 +1,15 @@
 Just fuck swarg people
 
-Use python
+How to use
+
+apt update && apt upgrade 
+
+apt install python
+
+apt install git
+
+Cd 
+
+Ls
+
+Python Gandfado.py
