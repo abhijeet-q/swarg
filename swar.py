@@ -9,7 +9,8 @@ import requests
 from colorama import Fore, init
 
 intro = """
-KISKO MA CHUDANI HAI 
+Ye ganduwo ki ma chodi jati hai 
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 """
 
 print(intro)
@@ -33,9 +34,9 @@ iPhone_UA = ("Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit
     "Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/604.1",
     "Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1")
 
-proxy_loading = input("[1] NAM BHEJE GA \n[2] YA PHOTO\n")
+proxy_loading = input("[1] pranjal\n[2] mout\n")
 
-token = input("APNI MA KA NAM BOL?\n")
+token = input("kis wejha se chodna hai ?\n")
 class main(object):
     def __init__(self):
         self.combolist = Queue()
@@ -114,7 +115,7 @@ def bot():
 
 
 
-maxthreads = int(input("KITNI BAR TERI MA KO CHODNA HAI - 1 - 2 - 3\n"))
+maxthreads = int(input("KITNI BAR iski ma chodna hai  - 1 - 2 - 3\n"))
 
 threading.Thread(target=a.printservice).start()
 num = 0
